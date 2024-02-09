@@ -27,8 +27,8 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>Transmutation Circles - Hello World
-        Best viewed in Farcaster on Warpcaster
+      <h1>Transmutation Circles - Hello World</h1>
+      <p>Best viewed in Farcaster on Warpcaster</p>
     </>
   );
 }
