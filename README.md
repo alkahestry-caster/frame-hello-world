@@ -2,6 +2,7 @@
 
 ```bash
 npm install && npm install @coinbase/onchainkit
+npm run dev
 ```
 
 
