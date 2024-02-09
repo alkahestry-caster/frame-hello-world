@@ -8,7 +8,7 @@ const frameMetadata = getFrameMetadata({
     }
   ],
   image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmWPQhnTH7dPvt9R4zQZCoLuuirndAp6FddT84dPhXx9k8/transmutation-circle-1.png`,
-  post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=2`,
+  post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
 export const metadata: Metadata = {
