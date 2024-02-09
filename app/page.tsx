@@ -7,8 +7,8 @@ const frameMetadata = getFrameMetadata({
       label: "Transmutation"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmWPQhnTH7dPvt9R4zQZCoLuuirndAp6FddT84dPhXx9k8/transmutation-circle-0.png`,
-  post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmWPQhnTH7dPvt9R4zQZCoLuuirndAp6FddT84dPhXx9k8/transmutation-circle-1.png`,
+  post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=2`,
 });
 
 export const metadata: Metadata = {
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Transmutation Circles',
     description: 'A frame exploring Transmutation Circles and acting as a Hello World',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmWPQhnTH7dPvt9R4zQZCoLuuirndAp6FddT84dPhXx9k8/transmutation-circle-0.png`],
+    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmWPQhnTH7dPvt9R4zQZCoLuuirndAp6FddT84dPhXx9k8/transmutation-circle-1.png`],
   },
   other: {
     ...frameMetadata,
