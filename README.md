@@ -1,8 +1,8 @@
 ## Hello World Frames
 
-'''
+```bash
 npm install && npm install @coinbase/onchainkit
-'''
+```
 
 
 
